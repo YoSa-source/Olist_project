@@ -46,3 +46,16 @@ AVERAGEX(
     FILTER(Fact_Orders, NOT(ISBLANK(Fact_Orders[order_delivered_customer_date]))),
     DATEDIFF(Fact_Orders[order_purchase_timestamp], Fact_Orders[order_delivered_customer_date], DAY)
 )
+📈 Dashboard Preview
+<img width="2073" height="1175" alt="image" src="https://github.com/user-attachments/assets/2f32de98-d55a-4eec-a57d-cf223414a9cd" />
+<img width="2072" height="1172" alt="image" src="https://github.com/user-attachments/assets/7563a6a5-51dd-45e5-ac56-bbd66da52587" />
+
+
+1. Sales & Performance Overview
+2. Logistics & Customer Experience
+💡 Key Findings & Recommendations
+Payment Methods: Over 70% of total revenue is processed via Credit Cards, suggesting promotional installment offers could further drive sales volume.
+
+Logistics Bottlenecks: Delivery duration correlates strongly with lower review scores. Remote states exhibit up to 2x higher delivery times and elevated freight costs compared to São Paulo (SP).
+
+Product Seasonality: Significant spikes in order volume occur during November (Black Friday impact).
